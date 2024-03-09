@@ -25,7 +25,20 @@ class MyHomePage extends StatelessWidget {
         title: Text('Despesas Pessoais'),
       ),
       body: Center(
-        child: Text ('Versão Inicial') ,
+        child: Column(children: [
+          Container(
+            width: double.infinity,
+            child: Card(
+              color: Colors.blue,
+              child: Text ('Gráfico'),
+              elevation: 5,
+            ),
+          ),
+          Card (
+            child: Text ('Lista de Transações'),
+            elevation: 5,
+          )
+        ],)
         ),
     );
   }
