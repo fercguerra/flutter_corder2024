@@ -20,8 +20,13 @@ class MyHomePage extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return Center(
-      child: Text('Versão Inicial'),
+    return Scaffold(
+      appBar: AppBar(
+        title: Text('Despesas Pessoais'),
+      ),
+      body: Center(
+        child: Text ('Versão Inicial') ,
+        ),
     );
   }
 }
