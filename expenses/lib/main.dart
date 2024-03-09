@@ -17,7 +17,7 @@ class ExpensesApp extends StatelessWidget {
 }
 
 class MyHomePage extends StatelessWidget {
-  final _transaction = [
+  final _transactions = [
     Transaction(id: 't1' , 
                 title: 'Novo tênis de Corrida', 
                 value: 310.76, 
